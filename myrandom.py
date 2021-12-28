@@ -46,11 +46,11 @@ def randomVcard(phone_digit: int, family_name_digit: int, name_digit: int):
     family_name = randomName(family_name_digit)
     name = randomName(name_digit)
 
-    return f"""
-    BEGIN:VCARD
-    VERSION:4.0
-    PRODID;VALUE=TEXT:pm-ez-vcard 0.0.1
-    FN;PREF=1:{family_name} {name}
-    TEL;TYPE="{phone_type}, pref";PREF=1:{phone}
-    EMAIL;TYPE="{mail_type}";PREF=1:{mail}
-    END:VCARD"""
+    return f"""BEGIN:VCARD
+VERSION:4.0
+PRODID;VALUE=TEXT:pm-ez-vcard 0.0.1
+FN;PREF=1:{family_name} {name}
+TEL;TYPE="{phone_type}, pref";PREF=1:{phone}
+EMAIL;TYPE="{mail_type}";PREF=1:{mail}
+END:VCARD
+"""
