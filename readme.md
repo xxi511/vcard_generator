@@ -1,11 +1,12 @@
-A simple code to generate vcard data 
+A simple code to generate vcard data
 
-* open the `main.py`   
-* update the value of `total_vcard`, `phone_digit`, `family_name_digit`, `name_digit`
-* run `main.py`
-* `randomVcard.vcf` is generated
+- open the `main.py`
+- update the value of `total_vcard`, `phone_digit`, `family_name_digit`, `name_digit`, `randomUnicodeName`
+- run `main.py`
+- `randomVcard.vcf` is generated
 
-Sample   
+Sample
+
 ```
 BEGIN:VCARD
 VERSION:4.0
